@@ -91,7 +91,9 @@ nav .nav-link:hover {
 	color: #6200A9;
 }
 
-#projects .card>img {
+#projects .card > img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
 	border-bottom: 0.5px solid #EDDCFF;
 } 
 
@@ -102,7 +104,7 @@ nav .nav-link:hover {
 	}
 
 	#projects .card>img {
-		width: 40;
+		width: 40%;
 		object-fit: cover;
 		border-radius: 8px 0 0 8px;
 		border-bottom: 0;
