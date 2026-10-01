@@ -5,7 +5,29 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Portfolio | Michael Angelo A. Ochengco</title>
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Portfolio | Michael Angelo Ochengco">
+	<meta property="og:description"
+		content="I’m Michael Angelo Ochengco, an Information Technology graduate and Full Stack Web Developer.">
+	<meta property="og:url" content="https://michaelgelooooo.github.io/Web-Portfolio/">
+	<meta property="og:site_name" content="Michael Angelo Ochengco">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:image"
+		content="https://github.com/michaelgelooooo/Web-Portfolio/blob/master/images/share-image.png">
+
+	<!-- X Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Portfolio | Michael Angelo Ochengco">
+	<meta name="twitter:description"
+		content="I’m Michael Angelo Ochengco, an Information Technology graduate and Full Stack Web Developer.">
+	<meta name="twitter:image"
+		content="https://github.com/michaelgelooooo/Web-Portfolio/blob/master/images/share-image.png">
+
+	<title>Portfolio | Michael Angelo Ochengco</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
 	<!-- Bootstrap CSS CDN -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -41,7 +63,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav gap-lg-4 ms-auto">
+				<ul class="navbar-nav gap-lg-3 ms-auto">
 					<li class="nav-item">
 						<a class="nav-link fw-bolder" href="#landing">HOME</a>
 					</li>
@@ -64,7 +86,7 @@
 		<!-- Landing -->
 		<section id="landing">
 			<div class="container h-100 p-4 p-md-5">
-				<div class="row h-100 justify-content-center align-items-center py-5">
+				<div class="row h-100 justify-content-center align-items-center">
 					<div class="col-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
 						<h1>hi, i'm michæl</h1>
 						<h3 id="landing-subtitle">Full Stack Web Developer</h3>
@@ -82,7 +104,14 @@
 						</div>
 					</div>
 					<div class="col-12 col-lg-6 text-center order-1 order-lg-2">
-						<img class="img-fluid rounded-circle shadow w-75" src="./images/landing-photo.jpg" alt="Michael's Professional Photo">
+						<img class="img-fluid rounded-circle w-75 mb-5" src="./images/landing-photo.webp"
+							alt="Michael's Professional Photo">
+
+						<div>
+							<a id="resume-btn" class="btn fw-bolder px-3 py-2" href="#contact">
+								Download Resume <i class="fa-regular fa-file-pdf"></i>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -101,11 +130,13 @@
 				<div class="row g-2">
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="card h-100 flex-row flex-sm-column overflow-hidden">
-							<img src="./images/project-1.jpg" class="col-4 col-sm-12 p-0 img-fluid" alt="Project 1 Photo">
+							<img src="./images/project-1.webp" class="col-4 col-sm-12 p-0 img-fluid"
+								alt="Project 1 Photo">
 							<div class="card-body col-8 col-sm-12 d-flex flex-column p-2 p-lg-3">
 								<h4 class="card-title">E-commerce API Documentation</h4>
 								<p class="card-text d-none d-sm-block">
-									The system features dynamic routing for order processing, real-time inventory updates, and secure user authentication.
+									The system features dynamic routing for order processing, real-time inventory
+									updates, and secure user authentication.
 								</p>
 
 								<div class="d-none d-sm-grid mt-auto">
@@ -120,7 +151,8 @@
 					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="card h-100 flex-row flex-sm-column overflow-hidden">
-							<img src="./images/project-2.jpg" class="col-4 col-sm-12 p-0 img-fluid" alt="Project 2 Photo">
+							<img src="./images/project-2.webp" class="col-4 col-sm-12 p-0 img-fluid"
+								alt="Project 2 Photo">
 							<div class="card-body col-8 col-sm-12 d-flex flex-column p-2 p-lg-3">
 								<h4 class="card-title">Course Booking API Documentation</h4>
 								<p class="card-text d-none d-sm-block">
@@ -139,7 +171,8 @@
 					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="card h-100 flex-row flex-sm-column overflow-hidden">
-							<img src="./images/project-3.jpg" class="col-4 col-sm-12 p-0 img-fluid" alt="Project 3 Photo">
+							<img src="./images/project-3.webp" class="col-4 col-sm-12 p-0 img-fluid"
+								alt="Project 3 Photo">
 							<div class="card-body col-8 col-sm-12 d-flex flex-column p-2 p-lg-3">
 								<h4 class="card-title">Course booking App</h4>
 								<p class="card-text d-none d-sm-block">
@@ -158,7 +191,8 @@
 					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="card h-100 flex-row flex-sm-column overflow-hidden">
-							<img src="./images/project-4.jpg" class="col-4 col-sm-12 p-0 img-fluid" alt="Project 4 Photo">
+							<img src="./images/project-4.webp" class="col-4 col-sm-12 p-0 img-fluid"
+								alt="Project 4 Photo">
 							<div class="card-body col-8 col-sm-12 d-flex flex-column p-2 p-lg-3">
 								<h4 class="card-title">E-commerce App</h4>
 								<p class="card-text d-none d-sm-block">
@@ -177,7 +211,8 @@
 					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="card h-100 flex-row flex-sm-column overflow-hidden">
-							<img src="./images/project-5.jpg" class="col-4 col-sm-12 p-0 img-fluid" alt="Project 5 Photo">
+							<img src="./images/project-5.webp" class="col-4 col-sm-12 p-0 img-fluid"
+								alt="Project 5 Photo">
 							<div class="card-body col-8 col-sm-12 d-flex flex-column p-2 p-lg-3">
 								<h4 class="card-title">Airline Booking System Mockup</h4>
 								<p class="card-text d-none d-sm-block">
@@ -196,7 +231,8 @@
 					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="card h-100 flex-row flex-sm-column overflow-hidden">
-							<img src="./images/project-6.jpg" class="col-4 col-sm-12 p-0 img-fluid" alt="Project 6 Photo">
+							<img src="./images/project-6.webp" class="col-4 col-sm-12 p-0 img-fluid"
+								alt="Project 6 Photo">
 							<div class="card-body col-8 col-sm-12 d-flex flex-column p-2 p-lg-3">
 								<h4 class="card-title">Airline Booking System Prototype</h4>
 								<p class="card-text d-none d-sm-block">

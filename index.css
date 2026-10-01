@@ -17,6 +17,10 @@ h6 {
 }
 
 /* Specific Styles */
+section {
+	scroll-margin-top: 72px;
+}
+
 h2 {
 	font-size: 1.75rem;
 	color: #1C0F38;
@@ -24,6 +28,15 @@ h2 {
 
 i {
 	color: inherit;
+}
+
+button,
+a,
+.nav-link,
+.navbar-brand,
+.tool-card,
+.card button {
+	transition: all 0.15s ease;
 }
 
 .card {
@@ -70,15 +83,29 @@ nav .nav-link:hover {
 	border-radius: 8px;
 }
 
-#landing #projects-btn {
+#landing #projects-btn,
+#landing #resume-btn {
 	background-color: #7E22CE;
 	color: white;
+}
+
+#landing #projects-btn:hover,
+#landing #resume-btn:hover {
+	background-color: #1C0F38;
 }
 
 #landing #contact-btn {
 	border: 1px solid #CFC2D6;
 	background-color: white;
 	color: #7E22CE;
+}
+
+#landing #contact-btn:hover {
+	background-color: #E2DFFF;
+}
+
+#landing img {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
 }
 
 /* Projects */
@@ -91,11 +118,16 @@ nav .nav-link:hover {
 	color: #6200A9;
 }
 
-#projects .card > img {
+#projects .card button:hover {
+	background-color: #6200A9;
+	color: white;
+}
+
+#projects .card>img {
 	aspect-ratio: 3 / 2;
 	object-fit: cover;
 	border-bottom: 0.5px solid #EDDCFF;
-} 
+}
 
 @media (max-width: 575.98px) {
 	#projects .card {
@@ -131,6 +163,11 @@ nav .nav-link:hover {
 	color: #6200A9;
 }
 
+.tool-card:hover {
+	background-color: #6200A9;
+	color: white;
+}
+
 /* Contact */
 #contact {
 	background-color: #F8F4FD;
@@ -152,6 +189,10 @@ nav .nav-link:hover {
 	background-color: #7E22CE;
 	font-weight: 500;
 	color: white;
+}
+
+#contact button:hover {
+	background-color: #1C0F38;
 }
 
 #contact iframe {
